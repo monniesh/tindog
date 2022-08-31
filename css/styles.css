@@ -1,0 +1,153 @@
+body{
+  font-family:"Montserrat";
+    text-align:center;
+}
+#title{
+  background-color:#ff4c68;
+  color:#fff;
+  text-align: left;
+
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1,h2{
+  font-family:"Montserrat";
+  line-height: 1.5;
+}
+
+/*heading*/
+.big-heading{
+  font-family:"Montserrat";
+  font-size: 3.5rem;
+
+}
+.navbar{
+  padding:1.2rem 0 4.5rem;
+
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size:2.5rem;
+}
+#navbarSupportedContent{
+  margin:0px 0px 0px 525px;
+}
+.title-image{
+  width:23%;
+
+  transform: rotate(25deg);
+  position: absolute;
+  right:20%;
+}
+.nav-item{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-family: Montserrat-light;
+  font-size:1.3rem;
+}
+
+.download-button{
+  margin : 5% 3% 5% 0;
+}
+#features{
+  padding:7% 10%;
+  background-color:#fff;
+  position: relative;
+
+}
+.fea1{
+  padding-top:8.5rem;
+  padding-bottom: 5.5rem;
+}
+.heading{
+  font-family:"Montserrat";
+}
+.content{
+  font-size: 15px;
+  color:grey;
+  width:60%;
+ margin: 20px auto 40px auto;
+}
+.icon{
+  margin-bottom: 10px;
+  color:#ef8172;
+}
+i:hover{
+  color:#ff4c68;
+}
+
+/* testimonial*/
+#testimonials{
+  background-color:#ef8172;
+  color:#fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+   width:10%;
+   border-radius:100%;
+   margin:20px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 10%;
+}
+.press-image{
+  width:15%;
+  margin:10px;
+}
+#pricing{
+  padding:100px;
+}
+
+.pricing-coloumn{
+  padding:3% 2%;
+}
+
+/*pricing and testamonials secion h2*/
+.price-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+@media (max-width:995px){
+  .title-image{
+    position: static;
+    transform : rotate(0);
+    width:60%;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+#cta{
+  text-align:center;
+  background-color:#ff4c68;
+  padding:7% 15%;
+
+}
+.cta{
+  font-family: Montserrat;
+  font-size: 50px;
+  line-height: 2;
+  color:#fff;
+}
+.font-heading{
+  font-size: 2.8rem;
+  font-family: Montserrat;
+}
+.end-button{
+  margin:0% 3% 2% 0%;
+}
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.last{
+  color:grey;
+}
+.icons{
+  margin:0 4px;
+}
